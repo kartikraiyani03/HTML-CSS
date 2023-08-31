@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Gardadge</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header>
+		<h1>Gardadge</h1>
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+        }
+        
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        nav ul {
+            display: flex;
+            list-style-type: none;
+        }
+        
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px;
+        }
+        
+        nav ul li a:hover {
+            background-color: #fff;
+            color: #333;
+        }
+        
+        .hero {
+            background-color: #f2f2f2;
+            padding: 50px 20px;
+            text-align: center;
+        }
+        
+        .services {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+        
+        .service {
+            margin-right: 20px;
+            margin-bottom: 20px;
+            flex-basis: calc(33.33% - 20px);
+            text-align: center;
+        }
+        
+        .service img {
+            width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+        }
+        
+        .contact {
+            background-color: #f2f2f2;
+            padding-top: 50px;
+            padding-bottom: 50px;
+            text-align:center;
+        
+        }
+        
+        .contact form label{
+            display:block;
+        
+        }
+        
+        .contact form input[type="text"], .contact form input[type="email"], .contact form textarea{
+            width :100%;
+            padding :10px;
+        
+            margin-bottom :10px;
+        
+            border-radius :5px;
+        
+            border :none;
+        
+            box-shadow :1px 1px 1px rgba(0,0,0,0.1);
+        
+            font-size :16px;
+        
+            font-family :Arial, sans-serif;
+        
+        }
+        
+        .contact form button[type="submit"]{
+            background-color :#333;
+        
+            color :#fff;
+        
+            border:none;
+        
+            border-radius :5px;
+        
+            padding :10px 20px;
+        
+            font-size :16px;
+        
+            font-family :Arial, sans-serif;
+        
+            cursor:pointer;
+        
+            box-shadow :1px 1px 1px rgba(0,0,0,0.1);
+        
+            transition :all ease-in-out .3s;
+        
+        }
+        
+        .contact form button[type="submit"]:hover{
+            background-color:#fff;
+        
+            color:#333;
+        
+        }
+        
+    </style>
+
+	<main>
+		<section class="hero">
+			<h2>Welcome to Gardadge!</h2>
+			<p>Here at Gardadge we provide the best gardening services in town. Our team of experts will help you create the garden of your dreams.</p>
+			<button>Learn More</button>
+		</section>
+
+		<section class="services">
+			<h2>Our Services</h2>
+
+			<div class="service">
+				<img src="https://via.placeholder.com/150" alt="Service 1">
+				<h3>Service 1</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod euismod nisi, ac bibendum sapien.</p>
+			</div>
+
+			<div class="service">
+				<img src="https://via.placeholder.com/150" alt="Service 2">
+				<h3>Service 2</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod euismod nisi, ac bibendum sapien.</p>
+			</div>
+
+			<div class="service">
+				<img src="https://via.placeholder.com/150" alt="Service 3">
+				<h3>Service 3</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod euismod nisi, ac bibendum sapien.</p>
+			</div>
+
+			<div class="service">
+				<img src="https://via.placeholder.com/150" alt="Service 4">
+				<h3>Service 4</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod euismod nisi, ac bibendum sapien.</p>
+			</div>
+
+		 </section>
+
+         <img src="https://imagetwist.com/gn48abl9x9o0/001.jpg#gallery" alt="">
+
+		 <section class="contact">
+		  <h2>Contact Us</h2>
+
+		  <form action="">
+		   <label for="">Name:</label><br/>
+		   <input type="text" name="" id=""><br/>
+
+		   <label for="">Email:</label><br/>
+		   <input type="email" name="" id=""><br/>
+
+		   <label for="">Message:</label><br/>
+		   <textarea name="" id="" cols="30" rows="10"></textarea><br/>
+
+		   <button type="submit">Send Message</button>
+
+		  </form>
+
+		 </section>
+
+		 <footer>© Gardadge 2023. All rights reserved.</footer>
+
+		 <script src="script.js"></script>
+
+    </main>
+
+    </body>
+
+    </html>
+
+
