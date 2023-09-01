@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex</title>
+</head>
+
+ <style>
+    *
+    {
+        margin: 0px;
+        padding: 0px;
+    }
+    .big
+    {
+        display: flex;
+        flex-direction: row-reverse;
+        flex-direction: column;
+        flex-direction: row;
+        flex-wrap: wrap;
+        background-color: grey;
+        justify-content: center;
+        align-items: center;
+        height: 50vh;
+    }
+    .box1
+    {
+        background-color: red;
+        color: black;
+        border-color: black;
+        border-width: 3px;
+        height: 150px;
+        width: 150px;
+        display: inline-block;
+        border-style: solid;
+
+    }
+    .box2
+    {
+        background-color: blue;
+        color: black;
+        border-color: black;
+        border-width: 3px;
+        height: 150px;
+        border-style: solid;
+        width: 150px;
+        display: inline-block;
+    }
+    .box3
+    {
+        background-color: yellow;
+        color: black;
+        border-color: black;
+        border-width: 3px;
+        border-style: solid;
+        height: 150px;
+        width: 150px;
+        display: inline-block;
+    }
+    .box4
+    {
+        background-color: green;
+        color: black;
+        border-color: black;
+        border: 3px black; 
+        height: 150px;
+        width: 150px;
+        display: inline-block;
+        border-style: solid;
+
+    }
+ </style>
+
+<body>
+    <div class="big">
+        <div class="box1">
+            <p>Box 1</p>
+        </div><div class="box2">
+            <p>Box 2</p>
+        </div><div class="box3">
+            <p>Box 3</p>
+        </div><div class="box4">
+            <p>Box 4</p>
+        </div>
+    </div>
+</body>
+
+</html>
