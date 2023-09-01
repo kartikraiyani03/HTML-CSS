@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login Page</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <style>
+        body {
+            font-family: sans-serif;
+            background-color: #fff;
+            color: #333;
+          }
+          
+          .container {
+            width: 400px;
+            margin: 0 auto;
+          }
+          
+          h1 {
+            text-align: center;
+          }
+          
+          input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+          }
+          
+          input[type="submit"] {
+            background-color: #000;
+            color: #fff;
+            cursor: pointer;
+          }
+          
+    </style>
+  <div class="container">
+    <h1>Login</h1>
+    <form action="login.php" method="post">
+
+      <input type="text" name="username" placeholder="Username">
+      <input type="password" name="password" placeholder="Password">
+      
+      <input type="submit" value="Log in">
+    </form>
+    <p>Forgotten password? <a href="#">Reset password</a></p>
+    <p>Don't have an account? <a href="#">Sign up</a></p>
+  </div>
+</body>
+</html>
