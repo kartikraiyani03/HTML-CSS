@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+</head>
+<body>
+
+  <style>
+    *
+    {
+        margin: 0;
+        padding: 0;
+    }
+    .big
+    {
+        display: grid;
+        background-color: yellow;
+        grid-row-gap: 10px;
+        grid-column-gap: 10px;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: 100px 100px 100px 100px 100px;
+        height: 80vh;
+    } 
+    .box
+    {
+        background-color: aqua;
+        border:3px solid red;
+        
+    }
+    @media screen and (max-width : 400px) 
+    {
+        .big
+        {
+            background-color: black;
+        }
+    }
+  </style>
+
+  <div class="big">
+      <div class="box">1</div>
+      <div class="box">2</div>
+      <div class="box">3</div>
+      <div class="box">4</div>
+      <div class="box">5</div>
+      <div class="box">6</div>
+      <div class="box">7</div>
+      <div class="box">8</div>
+      <div class="box">9</div>
+      <div class="box">0</div>
+      <div class="box">1</div>
+      <div class="box">2</div>
+      <div class="box">3</div>
+      <div class="box">4</div>
+      <div class="box">5</div>
+  </div>
+
+</body>
+</html>
